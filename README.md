@@ -5,22 +5,22 @@
 - [원본 소스](https://github.com/link-kut/introduction_to_ml_with_python)
 
 ### CHAPTER 1 소개 
-#### 1.1 [왜 머신러닝인가?](http://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.1.why_machine_learning.ipynb)
+#### 1.1 [왜 머신러닝인가?](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.1.why_machine_learning.ipynb)
 - 1.1.1 머신러닝으로 풀 수 있는 문제 
 - 1.1.2 문제와 데이터 이해하기 
  
-#### 1.2 [왜 파이썬인가?](http://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.2.why_python.ipynb)
-#### 1.3 [scikit-learn](http://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.3.scikit-learn.ipynb)
+#### 1.2 [왜 파이썬인가?](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.2.why_python.ipynb)
+#### 1.3 [scikit-learn](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.3.scikit-learn.ipynb)
 - 1.3.1 scikit-learn 설치 
-#### 1.4 [필수 라이브러리와 도구들](http://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.4.essential_libs_and_tools.ipynb)
+#### 1.4 [필수 라이브러리와 도구들](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.4.essential_libs_and_tools.ipynb)
 - 1.4.1 주피터 노트북
 - 1.4.2 NumPy
 - 1.4.3 SciPy 
 - 1.4.4 matplotlib 
 - 1.4.5 pandas 
 - 1.4.6 mglearn 
-#### 1.5 [파이썬 2 vs. 파이썬 3](http://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.5.py2_vs_py3.ipynb)
-#### 1.6 [소프트웨어 버전 확인](http://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.6.software_ver_check.ipynb)
+#### 1.5 [파이썬 2 vs. 파이썬 3](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.5.py2_vs_py3.ipynb)
+#### 1.6 [소프트웨어 버전 확인](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.6.software_ver_check.ipynb)
 #### 1.7 [첫 번째 애플리케이션: 붓꽃의 품종 분류](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch01_introduction/1.7.first_app_iris.ipynb)
 - 1.7.1 데이터 적재 
 - 1.7.2 성과 측정: 훈련 데이터와 테스트 데이터 
@@ -33,23 +33,23 @@
 <br/>
 
 ### CHAPTER 2 지도 학습 
-#### 2.1 분류와 회귀 
-#### 2.2 일반화, 과대적합, 과소적합 
+#### 2.1 [분류와 회귀](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.1.classifi_regress.ipynb)
+#### 2.2 [일반화, 과대적합, 과소적합](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.2.gener_overf_underf.ipynb)
 - 2.2.1 모델 복잡도와 데이터셋 크기의 관계 
 #### 2.3 지도 학습 알고리즘 
-- 2.3.1 [예제에 사용할 데이터셋](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.3.1.ipynb) 
-- 2.3.2 [k-최근접 이웃](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.3.2.ipynb) 
-- 2.3.3 [선형 모델](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.3.3.ipynb) 
-- 2.3.4 [나이브 베이즈 분류기](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.3.4.ipynb) (by 3/20)
-- 2.3.5 [결정 트리](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.3.5.ipynb) 
-- 2.3.6 [결정 트리의 앙상블](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.3.6.ipynb) 
-- 2.3.7 [커널 서포트 벡터 머신](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.3.7.ipynb)
-- 2.3.8 [신경망(딥러닝)](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.3.8.ipynb) (by 3/27) 
-#### 2.4 [분류 예측의 불확실성 추정](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter02/2.4.ipynb) 
+- 2.3.1 [예제에 사용할 데이터셋](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.3.supervised_algos-1.samples.ipynb) 
+- 2.3.2 [k-최근접 이웃](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.3.supervised_algos-2.knn.ipynb) 
+- 2.3.3 [선형 모델](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.3.supervised_algos-3.lin_model.ipynb) 
+- 2.3.4 [나이브 베이즈 분류기](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.3.supervised_algos-4.naive_bayes.ipynb)
+- 2.3.5 [결정 트리](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.3.supervised_algos-5.decision_tree.ipynb) 
+- 2.3.6 [결정 트리의 앙상블](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.3.supervised_algos-6.ens_deci_trees.ipynb) 
+- 2.3.7 [커널 서포트 벡터 머신](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.3.supervised_algos-7.kernel_svm.ipynb)
+- 2.3.8 [신경망(딥러닝)](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.3.supervised_algos-8.neural_net.ipynb)
+#### 2.4 [분류 예측의 불확실성 추정](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.4.uncer_estimate_clsr.ipynb) 
 - 2.4.1 결정 함수 
 - 2.4.2 예측 확률 
 - 2.4.3 다중 분류에서의 불확실성 
-#### 2.5 요약 및 정리 (by 4/3)
+#### 2.5 [요약 및 정리](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch02_supervised_learning/2.5.summary.ipynb)
 
 <br/>
 

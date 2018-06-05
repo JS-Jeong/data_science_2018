@@ -53,60 +53,60 @@
 
 <br/>
 
-### CHAPTER 3 비지도 학습과 데이터 전처리 
-#### 3.1 비지도 학습의 종류 
-#### 3.2 비지도 학습의 도전 과제 
-#### 3.3 [데이터 전처리와 스케일 조정](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter03/3.3.ipynb) 
-- 3.3.1 여러 가지 전처리 방법 
-- 3.3.2 데이터 변환 적용하기 
-- 3.3.3 훈련 데이터와 테스트 데이터의 스케일을 같은 방법으로 조정하기 
-- 3.3.4 지도 학습에서 데이터 전처리 효과 (by 4/10)
-#### 3.4 차원 축소, 특성 추출, 매니폴드 학습 
-- 3.4.1 [주성분 분석(PCA)](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter03/3.4.1.ipynb) 
-- 3.4.2 [비음수 행렬 분해(NMF)](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter03/3.4.2.ipynb) 
-- 3.4.3 [t-SNE를 이용한 매니폴드 학습](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter03/3.4.3.ipynb) (by 4/17)
-#### 3.5 군집 
-- 3.5.1 [k-평균 군집](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter03/3.5.1.ipynb) 
-- 3.5.2 [병합 군집](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter03/3.5.2.ipynb) 
-- 3.5.3 [DBSCAN](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter03/3.5.3.ipynb) 
-- 3.5.4 [군집 알고리즘의 비교와 평가](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter03/3.5.4.ipynb) 
-- 3.5.5 군집 알고리즘 요약 
-#### 3.6 요약 및 정리 (by 4/24)
+### [CHAPTER 3 비지도 학습과 데이터 전처리](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch03_unsupervised_l_preproc/3.0.0.ipynb)
+#### 3.1 비지도 학습의 종류
+#### 3.2 비지도 학습의 도전 과제
+#### 3.3 데이터 전처리와 스케일 조정
+- 3.3.1 여러 가지 전처리 방법
+- 3.3.2 데이터 변환 적용하기
+- 3.3.3 훈련 데이터와 테스트 데이터의 스케일을 같은 방법으로 조정하기
+- 3.3.4 지도 학습에서 데이터 전처리 효과
+#### 3.4 [차원 축소, 특성 추출, 매니폴드 학습](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch03_unsupervised_l_preproc/3.4.0.ipynb)
+- 3.4.1 주성분 분석(PCA)
+- 3.4.2 비음수 행렬 분해(NMF)
+- 3.4.3 t-SNE를 이용한 매니폴드 학습
+#### 3.5 [군집](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch03_unsupervised_l_preproc/3.5.0.ipynb)
+- 3.5.1 k-평균 군집
+- 3.5.2 병합 군집
+- 3.5.3 DBSCAN
+- 3.5.4 군집 알고리즘의 비교와 평가
+- 3.5.5 군집 알고리즘 요약
+#### 3.6 요약 및 정리
 
 <br/>
 
 ### CHAPTER 4 데이터 표현과 특성 공학 
-#### 4.1 [범주형 변수](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter04/4.1.ipynb) 
+#### 4.1 [범주형 변수](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch04_rep_data_feature_eng/4.1.0.ipynb)
 - 4.1.1 원-핫-인코딩(가변수) 
 - 4.1.2 숫자로 표현된 범주형 특성 
-#### 4.2 [구간 분할, 이산화 그리고 선형 모델, 트리 모델](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter04/4.2.ipynb) (by 5/1)  
-#### 4.3 [상호작용과 다항식](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter04/4.3.ipynb)  
-#### 4.4 [일변량 비선형 변환](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter04/4.4.ipynb) (by 5/8) 
-#### 4.5 [특성 자동 선택](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter04/4.5.ipynb)  
+#### 4.2 [구간 분할, 이산화 그리고 선형 모델, 트리 모델](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch04_rep_data_feature_eng/4.2.0.ipynb)
+#### 4.3 [상호작용과 다항식](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch04_rep_data_feature_eng/4.3.0.ipynb)
+#### 4.4 [일변량 비선형 변환](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch04_rep_data_feature_eng/4.4.0.ipynb)
+#### 4.5 [특성 자동 선택](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch04_rep_data_feature_eng/4.5.0.ipynb)
 - 4.5.1 일변량 통계 
 - 4.5.2 모델 기반 특성 선택 
 - 4.5.3 반복적 특성 선택 
-#### 4.6 [전문가 지식 활용](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter04/4.6.ipynb)  
-#### 4.7 요약 및 정리 (by 5/15)
+#### 4.6 [전문가 지식 활용](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch04_rep_data_feature_eng/4.6.0.ipynb)
+#### 4.7 요약 및 정리
 
 <br/>
 
 ### CHAPTER 5 모델 평가와 성능 향상 
-#### 5.1 [교차 검증](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter05/5.1.ipynb)  
+#### 5.1 [교차 검증](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch05_mdl_evalu_improve/5.1.0.ipynb)
 - 5.1.1 scikit-learn의 교차 검증 
 - 5.1.2 교차 검증의 장점 
 - 5.1.3 계층별 k-겹 교차 검증과 그외 전략들 
-#### 5.2 [그리드 서치](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter05/5.2.ipynb) 
+#### 5.2 [그리드 서치](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch05_mdl_evalu_improve/5.2.0.ipynb)
 - 5.2.1 간단한 그리드 서치 
 - 5.2.2 매개변수 과대적합과 검증 세트 
-- 5.2.3 교차 검증을 사용한 그리드 서치 (by 5/22)
-#### 5.3 평가 지표와 측정 
+- 5.2.3 교차 검증을 사용한 그리드 서치
+#### 5.3 [평가 지표와 측정](https://nbviewer.jupyter.org/github/JS-Jeong/data_science_2018/blob/master/ch05_mdl_evalu_improve/5.3.0.ipynb)
 - 5.3.1 최종 목표를 기억하라 
-- 5.3.2 [이진 분류의 평가 지표](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter05/5.3.2.ipynb) 
-- 5.3.3 [다중 분류의 평가 지표](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter05/5.3.3.ipynb) 
+- 5.3.2 이진 분류의 평가 지표
+- 5.3.3 다중 분류의 평가 지표
 - 5.3.4 회귀의 평가 지표 
-- 5.3.5 [모델 선택에서 평가 지표 사용하기](https://nbviewer.jupyter.org/github/bluebibi/data_science_2018/blob/master/Chapter05/5.3.5.ipynb) 
-#### 5.4 요약 및 정리 (by 5/29)
+- 5.3.5 모델 선택에서 평가 지표 사용하기
+#### 5.4 요약 및 정리
 
 <br/>
 

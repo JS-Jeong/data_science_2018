@@ -1,0 +1,68 @@
+# rich output 출력위치 설정
+# => 웹 브라우저에서 바로 봄
+get_ipython().run_line_magic('matplotlib', 'inline')
+
+# 색상 출력
+# 설치 방법 => pip install termcolor
+from termcolor import colored
+def c(tag, data, under=3):
+
+    val = colored(tag + ':\n', 'magenta', attrs=['bold'])
+    t = type(data)
+    val += colored(t, 'magenta')
+    under = str(under)
+    
+    import numpy
+    if t is float or t is numpy.float64:
+        val += ('\n{:.' + under + 'f}\n').format(data)
+    else:
+        val += '\n{}\n'.format(data)
+    return val
+
+
+
+
+
+
+# numpy 모듈
+import numpy as np
+
+# scipy 모듈의 sparse 함수
+from scipy import sparse
+
+# matplotlib.pyplot 모듈
+import matplotlib.pyplot as plt
+
+# pandas 모듈
+# 보조용 IPython.display 모듈
+import pandas as pd
+from IPython.display import display
+
+# mglearn 모듈
+# 경로 문제 때문에 sys 모듈을 가져옴
+import sys
+sys.path.append('..')
+import mglearn
+
+
+
+
+
+# Chapter 1. 큰 제목
+
+### <span style="color:#26C;background:#EEE">1.1. 중간 제목</span><br>
+
+#### <span style="color:#184;background:#EEE">1.1.1. 작은 제목</span><br>
+
+- **<span style="color:#C22">부분 제목</span>**<br><br>
+
+
+
+
+<img src="../images/img.png" style="margin:0;width:500px"/><br>
+
+
+
+
+
+<span style="color:#C22">빨간 글씨</span>
